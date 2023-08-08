@@ -81,3 +81,15 @@ npm i @nestjs/sequelize
 npm install --save @nestjs/sequelize sequelize sequelize-typescript mysql2
 npm install --save-dev @types/sequelize
 npm i cors
+npm install --save @nestjs-modules/mailer nodemailer
+npm install --save-dev @types/nodemailer
+
+# pick one template adapter and install
+npm install --save handlebars
+# or
+npm install --save pug
+# or
+npm install --save ejs
+
+npm i @nestjs/config
+

@@ -61,4 +61,10 @@ export class TasksService {
         return { 'message error': 'Your task cannot update' };
       });
   }
+
+  async deleteTask(_id: number): Promise<number> {
+    return await this.taskModel.destroy({
+      where: { id: _id },
+    });
+  }
 }
